@@ -5,8 +5,8 @@ import './App.css';
 
 function App() {
   const aliceSprite = useRef(null);
-  const foreground = useRef(null);
-  const background = useRef(null);
+  // const foreground = useRef(null);
+  // const background = useRef(null);
   
   useLayoutEffect(()=>{
     var spriteFrames = [
